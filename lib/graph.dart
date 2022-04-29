@@ -24,7 +24,6 @@ class Graph extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final Rect rect = Offset.zero & size;
     List<LineOffset> screenLines = [];
     for (Line line in lines) {
       LineOffset? offset =

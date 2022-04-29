@@ -1,9 +1,6 @@
 import 'package:calc_yhp/graph.dart';
 import 'package:flutter/material.dart';
 
-import 'package:calc_yhp/sky.dart';
-
-import 'package:calc_yhp/calc.dart';
 import 'package:calc_yhp/line.dart';
 import 'package:vector_math/vector_math.dart' as vec;
 
@@ -67,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text("sdkjflsjdfksd"),
             GestureDetector(
               onScaleStart: (details) {
                 _initialFocalPoint = details.focalPoint;
